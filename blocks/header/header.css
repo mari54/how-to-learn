@@ -1,0 +1,53 @@
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #F2F2F2;
+  overflow: hidden;
+}
+
+.header__title {
+  max-width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+  padding-left: 64px;
+  z-index: 2;
+}
+
+.header__subtitle {
+  max-width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  position: absolute;
+  padding-left: 64px;
+  bottom: 30px;
+  margin: 0;
+  z-index: 2;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+}
+
+.header__square-pic {
+  height: 568px;
+  width: 568px;
+  background-color: #2F80ED;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}

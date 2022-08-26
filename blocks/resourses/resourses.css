@@ -1,0 +1,17 @@
+.resourses {
+  margin: 100px auto 217px;
+}
+
+.resourses__logo-zone {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 1100px;
+  margin: 80px auto 0;
+  padding: 0;
+}
+
+.resourses__logo {
+  width: 270px;
+  height: 38px;
+}
