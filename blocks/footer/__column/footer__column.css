@@ -1,0 +1,36 @@
+.footer__column-links {
+  margin: 20px 0 16px;
+  padding: 0;
+}
+
+.footer__column-link {
+  margin: 0 0 16px;
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  transition: opacity .2s linear;
+}
+
+.footer__column-link:hover {
+  opacity: .7;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column-heading {
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}

@@ -1,15 +1,5 @@
 .logo {
   width: 228px;
+  height: 32px;
   background-repeat: no-repeat;
-}
-
-.logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  height: 32px;
-}
-
-.logo_place_footer {
-  height: 32px;
 }
